@@ -18,5 +18,7 @@ var dice = {
   
   button.onclick = function() {
     var result = dice.roll();
+    
+    
     printNumber(result);
   };
